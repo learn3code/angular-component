@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Angular Component App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn3code/angular-component.git"
+  },
+  "author": "Learn 3 Code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learn3code/angular-component/issues"
+  },
+  "homepage": "https://github.com/learn3code/angular-component#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "http": "0.0.0",
+    "httpdispatcher": "^1.0.0"
+  }
+}
