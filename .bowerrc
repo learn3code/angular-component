@@ -1,0 +1,7 @@
+{
+  "directory": "src/lib/",
+  "color": true,
+  "timeout": 60000,
+  "save": true,
+  "interactive": true
+}
