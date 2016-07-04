@@ -1,5 +1,7 @@
 {
   "name": "angular-component",
+  "description": "Angularjs 1.5.x component router example",
+  "success_url": "/index.html",
   "scripts": {
   },
   "env": {

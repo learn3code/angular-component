@@ -18,7 +18,6 @@
   "homepage": "https://github.com/learn3code/angular-component#readme",
   "devDependencies": {
     "bower": "^1.7.9",
-    "http": "0.0.0",
-    "httpdispatcher": "^1.0.0"
+    "http": "0.0.0"
   }
 }
