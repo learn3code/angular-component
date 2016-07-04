@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+  <html lang="en">
 <head>
+  <base href="/">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>AngularJS Component</title>
@@ -8,17 +9,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="lib/foundation/css/normalize.css">
   <link rel="stylesheet" href="lib/foundation/css/foundation.css">
+  <link rel="stylesheet" href="lib/angular/angular-csp.css">
+  <style type="text/css">
+    body {
+      background-color: #cfcfcf;
+    }
+  </style>
 </head>
 <body>
-
-  <ul class="menu">
-    <li><a href="#!/view1">view1</a></li>
-    <li><a href="#!/view2">view2</a></li>
-  </ul>
+  
+  <main-app class="ng-cloak">
+    <div class="row">
+    <main-header></main-header>
+      </div>
+    <div class="row">
+      <div class="small-2 columns">
+        <main-nav></main-nav>
+      </div>
+      <div class="small-10 columns">
+        <h4 class="secomdary"><ng-outlet></ng-outlet></h4>
+      </div>
+    </div>
+    <main-footer></main-footer>
+  </main-app>
 
   <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-resource/angular-resource.js"></script>
   <script src="lib/angular-component-router/angular_1_router.js"></script>
-  <script src="lib/"></script>
   <script src="js/init.js"></script>
+  <script src="js/main-app.js"></script>
+  <script src="js/main-header.js"></script>
+  <script src="js/main-nav.js"></script>
+  <script src="js/buildings.js"></script>
+  <script src="js/places.js"></script>
+  <script src="js/men.js"></script>
+  <script src="js/women.js"></script>
+  <script src="js/animals.js"></script>
 </body>
 </html>
