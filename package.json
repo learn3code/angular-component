@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/learn3code/angular-component#readme",
   "devDependencies": {
-    "bower": "^1.7.9",
-    "http": "0.0.0"
+    "bower": "^1.7.9"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
   }
 }
