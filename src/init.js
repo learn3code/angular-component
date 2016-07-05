@@ -1,15 +1,15 @@
 /* global angular */
 
-(function(angular) {
+(function() {
 
     angular.module('angComp', ['ngComponentRouter', 'ngResource'])
-        .config(function($locationProvider) {
+        .config(['$locationProvider', function($locationProvider) {
             $locationProvider.html5Mode(true);
-        })
+        }])
         .value('$routerRootComponent', 'mainApp');
 
     angular.element(document).ready(function() {
-        angular.bootstrap(document, ["angComp"]);
+        angular.bootstrap(document, ['angComp']);
     });
 
-})(angular);
+})();

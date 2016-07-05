@@ -7,9 +7,11 @@
   <title>AngularJS Component</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- build:css app.css -->
   <link rel="stylesheet" href="lib/foundation/css/normalize.css">
   <link rel="stylesheet" href="lib/foundation/css/foundation.css">
   <link rel="stylesheet" href="lib/angular/angular-csp.css">
+  <!-- endbuild -->
   <style type="text/css">
     body {
       background-color: #cfcfcf;
@@ -33,10 +35,13 @@
     <main-footer></main-footer>
   </main-app>
 
+  <!-- build:js vendor.js -->
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-resource/angular-resource.js"></script>
   <script src="lib/angular-component-router/angular_1_router.js"></script>
-  <script src="js/init.js"></script>
+  <!-- endbuild -->
+  <!-- build:js app.js -->
+  <script src="init.js"></script>
   <script src="js/main-app.js"></script>
   <script src="js/main-header.js"></script>
   <script src="js/main-nav.js"></script>
@@ -45,5 +50,6 @@
   <script src="js/men.js"></script>
   <script src="js/women.js"></script>
   <script src="js/animals.js"></script>
+  <!-- endbuild -->
 </body>
 </html>
