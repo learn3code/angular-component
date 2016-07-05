@@ -1,0 +1,4 @@
+#.gitignore
+#.bowerrc
+src/lib
+node_modules
