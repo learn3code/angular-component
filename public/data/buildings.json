@@ -1,0 +1,8 @@
+[ 
+    { "name" : "Dome of the Rock", "location" : "Jerusalem", "url" : "http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2016/03/dome.jpg" },
+    { "name" : "La Pedrera", "location" : "Barcelona", "url" : "http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2016/03/pedrera.jpg" },
+    { "name" : "One World Trade Center", "location" : "New York", "url" : "http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2014/08/owtc.jpg" },
+    { "name" : "St Paul's Cathedral", "location" : "London", "url" : "http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2012/10/stpauls.jpg" },
+    { "name" : "Petronas Towers", "location" : "Kuala Lumpur", "url" : "http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2012/10/petronas.jpg" },
+    { "name" : "", "location" : "", "url" : "" }
+]
