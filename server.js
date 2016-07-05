@@ -4,6 +4,7 @@ const HOST_IP = process.env.IP;
 
 var app = express();
 
+app.use(express.static('bower_components'));
 app.use(express.static('src'));
 
 app.listen(PORT, HOST_IP, function() {
