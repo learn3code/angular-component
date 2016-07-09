@@ -6,10 +6,17 @@ module.exports = function() {
         find: function(qry, callback) {
             if (arguments.length > 0) {
                 MongoClient.connect(url, function(err1, db) {
+                    // if error then exit
+                    if(err1) {
+                        callback(err1);
+                        return;
+                    }
+                    
+                    // else get the data
                     var collection = db.collection(qry);
                     collection.find({}).toArray(function(err2, data) {
                         db.close();
-                        callback(data, err2);
+                        callback(err2, data);
                     });
 
                 });
@@ -23,7 +30,7 @@ module.exports = function() {
         },
         insert: function() {
             if (arguments.length > 0) {
-                MongoClient.connect(url, function(err, db) {
+                MongoClient.connect(url, function(err1, db) {
                     // TODO----
                     db.close();
                 });
