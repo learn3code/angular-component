@@ -8,7 +8,7 @@
         }
 
         Buildings() {
-            return this._$resource('data/buildings.json');
+            return this._$resource('/buildings');
         }
     }
 
@@ -23,12 +23,12 @@
     }
 
     angular.module('angComp')
-        .service('buildingService', ['$resource', BuildingService])
+        .service('BuildingService', ['$resource', BuildingService])
         .component('buildings', {
             template: `<div class="panel clearfix" ng-repeat="row in $ctrl.rows">
                     {{ ::row.name }}
                   </div>`,
-            controller: ['buildingService', BuildingController]
+            controller: ['BuildingService', BuildingController]
         });
 
 })();
